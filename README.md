@@ -1,3 +1,5 @@
+![GENeSYS-MOD](./Docs/gmod.png)
+
 # 🌍 GENeSYS-MOD – Global Energy System Model
 
 ## 📚 Documentation & Overview
