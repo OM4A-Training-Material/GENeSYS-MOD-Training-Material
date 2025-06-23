@@ -23,7 +23,7 @@ GENeSYS-MOD includes the following key capabilities:
 3. **Open and flexible input structure** – Fully transparent and modifiable datasets.
 4. **IAMC-compatible output** – Exports results in the [IAMC format](https://github.com/IAMconsortium) for use in intercomparison studies and dashboards.
 
-![GENeSYS-MOD Structure](./_static/genesysmod_structure_new_drawio.png)
+![GENeSYS-MOD Structure](./Docs/gmodinputoutput.png)
 
 <sub>🔁 Simplified structure of GENeSYS-MOD sectoral coverage.</sub>
 
