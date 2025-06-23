@@ -6,8 +6,8 @@
 
 GENeSYS-MOD supports scenario analysis from national to global levels and covers electricity, transport, buildings, and industry sectors. Implementations are available in both **Julia** and **GAMS**, and the model is designed for usability even on standard laptops.
 
-- 📖 **Documentation (coming soon)**
-- 🛠️ Programming Languages: Julia / GAMS  
+- 📖 https://genesysmod.readthedocs.io/
+- 🛠️ Programming Languages: Julia 
 - 📜 License: Apache 2.0
 
 ---
