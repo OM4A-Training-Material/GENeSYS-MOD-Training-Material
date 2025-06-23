@@ -1,30 +1,42 @@
-# GENeSYS-MOD-Training-Material
+GENeSYS-MOD – Global Energy System Model
+GENeSYS-MOD (Global Energy System Model) is an open-source, cross-sectoral energy system model designed for analyzing long-term developments of energy systems. It aims to be accessible, flexible, and powerful for a wide range of users and research questions.
 
-The Global Energy System Model - or GENeSYS-MOD - is an open source cross-sectoral energy system model aimed at long-term developments of the energy system.
+Overview
+Originally based on the OSeMOSYS framework, GENeSYS-MOD has been significantly expanded and modified. While still part of the OSeMOSYS model family, many components have been redesigned to increase functionality and usability.
 
+GENeSYS-MOD is a linear programming model that minimizes total system costs. Energy demands are exogenously defined, and the model determines the capacities and technologies needed to meet them. The framework is flexible and can be applied to studies ranging from household-level to global-scale energy system analyses.
 
+Key Features
+Sector coverage: Electricity, buildings, industry, and transport
 
-GENeSYS-MOD is originally based on the Open-Source Energy Modeling System (`OSeMOSYS  <http://www.osemosys.org/>`_) framework. While still part of the OSeMOSYS family of models, various aspects have been redesigned, expanded, or added. GENeSYS-MOD is a linear program, minimizing total system costs. Energy demands are exogenously predefined and the model needs to provide the necessary capacities to meet them. The modeling framework is very flexible in its use cases. Based on research question and input data, calculations can be done from a household-basis to a global aggregation of regions.
+Inter-sectoral linkages and energy trade between regions
 
-The model covers the sectors electricity, buildings, industry, and transport. It also includes all linkages between those sectors, as well as flexibility options and energy trade between regions.
+Multiple implementations: Available in both GAMS and Julia
 
-.. image:: _static/genesysmod_structure_new_drawio.png
-    :width: 650
+Flexible time aggregation: Can be run on standard PCs and laptops
 
-.. centered:: *(Highly) simplified structure of the coverage of GENeSYS-MOD.*
+Open-source license: Apache 2.0 – free to use, modify, and share
 
-A main focus of GENeSYS-MOD is to be easily understandable and usable, offering multiple model versions in the GAMS and Julia programming languages, making it available for a wide range of potential users. By offering flexible time aggregation methods, the model can be used on any kind of machine, including PCs and laptops, without the requirement for expensive hardware.
+Model Scope
 
-GENeSYS-MOD has been in development since 2016 and is still continuously enhanced and upgraded (see the :doc:`Release Notes </release_notes/release_notes>`). A timeline of these developments and events is shown below.
+Simplified structure of GENeSYS-MOD's coverage.
 
-.. image:: _static/genesysmod_timeline_small.jpg
-    :width: 650
+GENeSYS-MOD has been under active development since 2016, with continuous improvements and new feature integrations.
 
-.. centered:: *Timeline of the development and noteworthy events in the history of GENeSYS-MOD.*
+Development Timeline
 
+A timeline of major milestones and development highlights.
 
-If you want to learn more about GENeSYS-MOD, the underlying principles and mathematical formulation, look over to :doc:`the mathematical Formulation page </mathematical_formulation/overview>`.
+Learn More
+📘 Mathematical Formulation – Dive into the underlying model structure
 
-GENeSYS-MOD is published under the :doc:`Apache 2.0 license <license>`, which means that it is completely open source and free to use, redistribute, modify, and of course :doc:`contribute <get_involved>`. :)
+📄 Release Notes – See what's new in each version
 
-Plenty of research has been conducted using GENeSYS-MOD - head over to the :doc:`References <references>` section to see a list of all published works with the framework.
+🔍 References – Browse scientific publications using GENeSYS-MOD
+
+🤝 Contribute – Want to get involved? Start here!
+
+🛠️ License: Apache 2.0
+
+Citation and Use
+If you use GENeSYS-MOD in your work, please cite relevant publications listed in the References section.
