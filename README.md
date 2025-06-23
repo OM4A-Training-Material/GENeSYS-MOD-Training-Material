@@ -1,42 +1,38 @@
-GENeSYS-MOD – Global Energy System Model
-GENeSYS-MOD (Global Energy System Model) is an open-source, cross-sectoral energy system model designed for analyzing long-term developments of energy systems. It aims to be accessible, flexible, and powerful for a wide range of users and research questions.
+# 🌍 GENeSYS-MOD – Global Energy System Model
 
-Overview
-Originally based on the OSeMOSYS framework, GENeSYS-MOD has been significantly expanded and modified. While still part of the OSeMOSYS model family, many components have been redesigned to increase functionality and usability.
+## 📚 Documentation & Overview
 
-GENeSYS-MOD is a linear programming model that minimizes total system costs. Energy demands are exogenously defined, and the model determines the capacities and technologies needed to meet them. The framework is flexible and can be applied to studies ranging from household-level to global-scale energy system analyses.
+**GENeSYS-MOD** (Global Energy System Model) is an open-source, cross-sectoral energy system model developed to analyze long-term energy transitions. It is based on [OSeMOSYS](http://www.osemosys.org/) but has been significantly extended with new features, input structures, and sectoral linkages.
 
-Key Features
-Sector coverage: Electricity, buildings, industry, and transport
+GENeSYS-MOD supports scenario analysis from national to global levels and covers electricity, transport, buildings, and industry sectors. Implementations are available in both **Julia** and **GAMS**, and the model is designed for usability even on standard laptops.
 
-Inter-sectoral linkages and energy trade between regions
+- 📖 **Documentation (coming soon)**
+- 🛠️ Programming Languages: Julia / GAMS  
+- 📜 License: Apache 2.0
 
-Multiple implementations: Available in both GAMS and Julia
+---
 
-Flexible time aggregation: Can be run on standard PCs and laptops
+## 🧠 Model Highlights
 
-Open-source license: Apache 2.0 – free to use, modify, and share
+GENeSYS-MOD includes the following key capabilities:
 
-Model Scope
+1. **Cross-sectoral energy modeling** – Integrates electricity, transport, buildings, and industry.
+2. **Interregional energy trade** – Supports trading between user-defined regions.
+3. **Open and flexible input structure** – Fully transparent and modifiable datasets.
+4. **IAMC-compatible output** – Exports results in the [IAMC format](https://github.com/IAMconsortium) for use in intercomparison studies and dashboards.
 
-Simplified structure of GENeSYS-MOD's coverage.
+![GENeSYS-MOD Structure](./_static/genesysmod_structure_new_drawio.png)
 
-GENeSYS-MOD has been under active development since 2016, with continuous improvements and new feature integrations.
+<sub>🔁 Simplified structure of GENeSYS-MOD sectoral coverage.</sub>
 
-Development Timeline
+---
 
-A timeline of major milestones and development highlights.
+## 🧱 Model Architecture
 
-Learn More
-📘 Mathematical Formulation – Dive into the underlying model structure
+GENeSYS-MOD is a **linear optimization model** that minimizes total system costs subject to technical, environmental, and policy constraints. Key features include:
 
-📄 Release Notes – See what's new in each version
-
-🔍 References – Browse scientific publications using GENeSYS-MOD
-
-🤝 Contribute – Want to get involved? Start here!
-
-🛠️ License: Apache 2.0
-
-Citation and Use
-If you use GENeSYS-MOD in your work, please cite relevant publications listed in the References section.
+- Flexible **temporal and spatial resolution**
+- **Demand-driven capacity expansion**
+- **Energy balance constraints** for all fuels and sectors
+- **Technology-specific availability and capacity factors**
+- Support for **renewables, storage, and sector coupling**
