@@ -1,10 +1,10 @@
 ![GENeSYS-MOD](./Docs/gmod.png)
 
-# 🌍 GENeSYS-MOD – Global Energy System Model
+# GENeSYS-MOD – The Global Energy System Model
 
 ## 📚 Documentation & Overview
 
-**GENeSYS-MOD** (Global Energy System Model) is an open-source, cross-sectoral energy system model developed to analyze long-term energy transitions. It is based on [OSeMOSYS](http://www.osemosys.org/) but has been significantly extended with new features, input structures, and sectoral linkages.
+**GENeSYS-MOD** (The Global Energy System Model) is an open-source, cross-sectoral energy system model developed to analyze long-term energy transitions. It is based on [OSeMOSYS](http://www.osemosys.org/) but has been significantly extended with new features, input structures, and sectoral linkages.
 
 GENeSYS-MOD supports scenario analysis from national to global levels and covers electricity, transport, buildings, and industry sectors. Implementations are available in both **Julia** and **GAMS**, and the model is designed for usability even on standard laptops.
 
